@@ -6,11 +6,4 @@ Este repositorio contiene apuntes elaborados en formato Markdown sobre el Tema 4
 
 ## 📂 Estructura del repositorio
 
-tema4-apuntes/
-├── apuntes/
-│   ├── comandos-git.md
-│   ├── javadoc.md
-│   └── optimizacion.md
-├── capturas/
-└── README.md
-
+<pre> tema4-apuntes/ ├── apuntes/ │ ├── comandos-git.md │ ├── javadoc.md │ └── optimizacion.md ├── capturas/ └── README.md </pre>
