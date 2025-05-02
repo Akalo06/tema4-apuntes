@@ -6,6 +6,7 @@ Este repositorio contiene apuntes elaborados en formato Markdown sobre el Tema 4
 
 ## 📂 Estructura del repositorio
 
+```text
 tema4-apuntes/
 ├── apuntes/
 │   ├── comandos-git.md
@@ -13,4 +14,4 @@ tema4-apuntes/
 │   └── optimizacion.md
 ├── capturas/
 └── README.md
-
+```
