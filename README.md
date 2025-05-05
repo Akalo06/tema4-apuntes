@@ -48,3 +48,10 @@ tema4-apuntes/
 - Herramientas de análisis estático y testing
 
 ---
+## 🧠 Autor
+
+📎 Elaborado por **Akalo06**  
+✉️ Contacto: [por determinar]  
+🔗 GitHub: [github.com/Akalo06](https://github.com/Akalo06)
+
+---
