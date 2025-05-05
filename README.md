@@ -15,3 +15,11 @@ tema4-apuntes/
 ├── capturas/
 └── README.md
 ```
+
+## 🧾 Contenidos
+
+### 1. [Comandos Git](apuntes/comandos-git.md)
+- Concepto de control de versiones
+- Tipos y herramientas
+- Comandos fundamentales
+- Uso de ramas, fusiones y buenas prácticas
