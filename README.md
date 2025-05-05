@@ -23,3 +23,9 @@ tema4-apuntes/
 - Tipos y herramientas
 - Comandos fundamentales
 - Uso de ramas, fusiones y buenas prácticas
+
+### 2. [Generación de documentación con Javadoc](apuntes/javadoc.md)
+- Comentarios en Java
+- Alternativas a Javadoc
+- Ejemplos de documentación
+- Herramientas de apoyo
