@@ -35,3 +35,16 @@ tema4-apuntes/
 - Patrones comunes de refactorización
 - Relación con pruebas automáticas
 - Herramientas para mejorar la calidad del código
+
+---
+
+## 🔧 Tecnologías utilizadas
+
+- Git
+- GitHub
+- Markdown
+- Java
+- Javadoc
+- Herramientas de análisis estático y testing
+
+---
