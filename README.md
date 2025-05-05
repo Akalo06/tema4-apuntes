@@ -55,3 +55,9 @@ tema4-apuntes/
 🔗 GitHub: [github.com/Akalo06](https://github.com/Akalo06)
 
 ---
+## ✅ Estado del proyecto
+
+❌ Apuntes completos  
+❌ Uso de ramas y fusión  
+❌ Capturas incluidas  
+✔️ Sincronizado con GitHub
