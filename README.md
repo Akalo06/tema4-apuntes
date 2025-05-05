@@ -29,3 +29,9 @@ tema4-apuntes/
 - Alternativas a Javadoc
 - Ejemplos de documentación
 - Herramientas de apoyo
+
+### 3. [Optimización y refactorización del código](apuntes/optimizacion.md)
+- Qué es refactorizar y por qué es importante
+- Patrones comunes de refactorización
+- Relación con pruebas automáticas
+- Herramientas para mejorar la calidad del código
