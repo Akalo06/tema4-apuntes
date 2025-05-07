@@ -19,22 +19,21 @@ tema4-apuntes/
 ## 🧾 Contenidos
 
 ### 1. [Comandos Git](apuntes/comandos-git.md)
-- Concepto de control de versiones
-- Tipos y herramientas
-- Comandos fundamentales
-- Uso de ramas, fusiones y buenas prácticas
+- Concepto y características del control de versiones
+- Tipos de herramientas y flujos de trabajo
+- Comandos básicos y ejemplos con capturas
+- Gestión de ramas y fusiones
 
-### 2. [Generación de documentación con Javadoc](apuntes/javadoc.md)
-- Comentarios en Java
-- Alternativas a Javadoc
-- Ejemplos de documentación
-- Herramientas de apoyo
+### 2. [Documentación con Javadoc](apuntes/javadoc.md)
+- Uso de comentarios estructurados en Java
+- Generación de documentación con `javadoc`
+- Herramientas y buenas prácticas
 
-### 3. [Optimización y refactorización del código](apuntes/optimizacion.md)
-- Qué es refactorizar y por qué es importante
-- Patrones comunes de refactorización
+### 3. [Optimización del código](apuntes/optimizacion.md)
+- Refactorización: concepto, limitaciones y patrones comunes
 - Relación con pruebas automáticas
-- Herramientas para mejorar la calidad del código
+- Herramientas para refactorizar
+- Consejos para optimizar código en Java
 
 ---
 
