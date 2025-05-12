@@ -1,4 +1,3 @@
-
 ## 🔁 Las 3 Secciones de un Proyecto Git
 
 **Git** es un sistema de control de versiones distribuido que permite a los desarrolladores gestionar los cambios en el código fuente de manera eficiente. Un proyecto en Git se divide en **tres secciones principales**:
@@ -60,5 +59,3 @@ git commit -m "Mensaje del commit"
 - Permite:
   - Restaurar versiones anteriores.
   - Gestionar colaboraciones mediante plataformas remotas como **GitHub** o **GitLab**.
-
-
