@@ -9,11 +9,9 @@ Este repositorio contiene apuntes elaborados en formato Markdown sobre el Tema 4
 ```text
 tema4-apuntes/
 ├── apuntes/
-│   ├── comandos-git.md
-│   ├── javadoc.md
-│   └── optimizacion.md
-├── capturas/
-└── README.md
+    ├── comandos-git/
+    ├── javadoc/
+    └── optimizacion/
 ```
 
 ## 🧾 Contenidos
