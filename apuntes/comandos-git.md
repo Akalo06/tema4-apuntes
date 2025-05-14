@@ -196,7 +196,7 @@ git commit
 
 
 
-En esta actividad, crearemos un repositorio local en nuestro PC personal. Luego, añadiremos y modificaremos algunos archivos y registraremos los cambios, trabajando desde la terminal de texto.
+En esta sección, crearemos un repositorio local en nuestro PC personal. Luego, añadiremos y modificaremos algunos archivos y registraremos los cambios, trabajando desde la terminal de texto.
 
 ---
 
@@ -226,6 +226,10 @@ git init
 ```bash
 ls -a
 ```
+---
+![presentacion git](../capturas/3git.png)
+---
+
 
 > Esta carpeta almacena todo el historial del repositorio y los cambios que realicemos.
 
@@ -246,6 +250,9 @@ Editamos el archivo para incluir:
 ```
 Por Manuel Martínez Montaño
 ```
+---
+![presentacion git](../capturas/4git.png)
+---
 
 7. **Registramos los cambios en el repositorio**
 
@@ -304,6 +311,12 @@ Podemos revisar el historial de commits con:
 ```bash
 git log --oneline
 ```
+
+---
+![presentacion git](../capturas/5git.png)
+---
+
+
 
 ---
 
