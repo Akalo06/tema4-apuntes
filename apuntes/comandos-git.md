@@ -308,3 +308,100 @@ git log --oneline
 ---
 
 > ✅ Este proceso permite entender el flujo básico de trabajo en Git, asegurando un control eficiente sobre las versiones del proyecto.
+
+---
+
+# 🔐 Uso de claves SSH en Git
+
+El uso de claves SSH en Git permite establecer una conexión segura entre tu equipo local y servicios como GitHub, GitLab o Bitbucket sin necesidad de introducir tus credenciales cada vez que realizas una operación remota.
+
+---
+
+## 🔧 ¿Qué es SSH?
+
+SSH (Secure Shell) es un protocolo que permite la comunicación segura entre sistemas. En Git, se utiliza para autenticarte con servidores remotos sin usar tu usuario y contraseña directamente.
+
+---
+
+## 🧱 ¿Cómo funciona?
+
+SSH utiliza un **par de claves**:
+
+- 🔑 **Clave privada**: se guarda en tu ordenador y **nunca debe compartirse**.
+- 🗝️ **Clave pública**: se copia al servidor (por ejemplo, GitHub) para que se pueda reconocer tu máquina.
+
+Cuando haces `git push` o `git pull`, Git utiliza tu clave privada para autenticarse automáticamente con el servidor remoto.
+
+---
+
+## 🛠️ Generar un par de claves SSH
+
+Puedes generar tus claves con el siguiente comando:
+
+```bash
+ssh-keygen -t ed25519 -C "tu-correo@ejemplo.com"
+```
+
+> Si tu sistema no admite `ed25519`, usa: `ssh-keygen -t rsa -b 4096 -C "tu-correo@ejemplo.com"`
+
+Esto creará dos archivos:
+
+- `~/.ssh/id_ed25519` → tu clave **privada**
+- `~/.ssh/id_ed25519.pub` → tu clave **pública**
+
+---
+
+## 🔗 Añadir la clave pública a GitHub
+
+1. Copia el contenido del archivo `.pub`:
+
+```bash
+cat ~/.ssh/id_ed25519.pub
+```
+
+2. Ve a GitHub → *Settings* → *SSH and GPG keys*
+3. Haz clic en **New SSH key**, pega tu clave y guarda.
+
+---
+
+## ✅ Verificar conexión SSH
+
+Puedes comprobar que todo funciona con:
+
+```bash
+ssh -T git@github.com
+```
+
+Si todo está bien, verás un mensaje como:
+
+```
+Hi tu-usuario! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+---
+
+## 📎 Configurar Git para usar SSH
+
+Al clonar un repositorio, asegúrate de usar la URL SSH (no la HTTPS):
+
+```bash
+git clone git@github.com:usuario/repositorio.git
+```
+
+Si ya clonaste usando HTTPS y quieres cambiar a SSH:
+
+```bash
+git remote set-url origin git@github.com:usuario/repositorio.git
+```
+
+---
+
+## 🧠 Recomendaciones
+
+- No compartas tu clave privada.
+- Usa `ssh-agent` para no tener que escribir tu contraseña cada vez.
+- Puedes generar múltiples claves si usas varios servicios o cuentas.
+
+---
+
+Con las claves SSH configuradas, puedes trabajar de forma más segura y cómoda con tus repositorios remotos.
