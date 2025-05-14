@@ -343,6 +343,9 @@ Puedes generar tus claves con el siguiente comando:
 ```bash
 ssh-keygen -t ed25519 -C "tu-correo@ejemplo.com"
 ```
+---
+![presentacion git](../capturas/1ssh.png)
+---
 
 > Si tu sistema no admite `ed25519`, usa: `ssh-keygen -t rsa -b 4096 -C "tu-correo@ejemplo.com"`
 
@@ -365,6 +368,9 @@ cat ~/.ssh/id_ed25519.pub
 3. Haz clic en **New SSH key**, pega tu clave y guarda.
 
 ---
+![presentacion git](../capturas/2ssh.png)
+---
+
 
 ## ✅ Verificar conexión SSH
 
