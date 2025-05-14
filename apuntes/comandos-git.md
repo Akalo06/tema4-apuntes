@@ -1,3 +1,6 @@
+---
+![presentacion git](../capturas/1git.png)
+---
 ## 🔁 Las 3 Secciones de un Proyecto Git
 
 **Git** es un sistema de control de versiones distribuido que permite a los desarrolladores gestionar los cambios en el código fuente de manera eficiente. Un proyecto en Git se divide en **tres secciones principales**:
