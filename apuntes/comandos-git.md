@@ -407,3 +407,119 @@ git remote set-url origin git@github.com:usuario/repositorio.git
 ---
 
 Con las claves SSH configuradas, puedes trabajar de forma más segura y cómoda con tus repositorios remotos.
+---
+# 🌿 Uso de Ramas en Git
+
+El uso de ramas en Git permite trabajar en funcionalidades, correcciones o experimentos de forma aislada, sin afectar la rama principal del proyecto (generalmente `main` o `master`). Es una de las características más poderosas de Git.
+
+---
+
+## 📌 ¿Qué es una rama en Git?
+
+Una rama es simplemente un puntero a uno de los commits del repositorio. Cuando se crea una nueva rama, se hace una copia del estado actual del proyecto, permitiendo desarrollar nuevas funcionalidades sin afectar el flujo principal del código.
+
+---
+
+## 🔧 Comandos Básicos para Trabajar con Ramas
+
+### Crear una nueva rama
+
+```bash
+git branch nombre-de-la-rama
+```
+
+Crea una nueva rama basada en la actual, pero no cambia automáticamente a ella.
+
+---
+
+### Cambiar de rama
+
+```bash
+git checkout nombre-de-la-rama
+```
+
+Mueve el puntero HEAD a la rama especificada.
+
+> También se puede crear y cambiar de rama en un solo comando:
+```bash
+git checkout -b nombre-de-la-rama
+```
+
+---
+
+### Listar ramas
+
+```bash
+git branch
+```
+
+Muestra todas las ramas locales. La rama activa se marca con un asterisco.
+
+---
+
+### Fusionar ramas (merge)
+
+```bash
+git merge nombre-de-la-rama
+```
+
+Funde la rama especificada con la rama actual. Normalmente se hace en la rama `main` o `develop` para integrar los cambios.
+
+---
+
+### Eliminar una rama
+
+```bash
+git branch -d nombre-de-la-rama
+```
+
+Elimina la rama local. Si la rama no ha sido fusionada, usar `-D` para forzar la eliminación.
+
+---
+
+### Ver gráficamente el historial con ramas
+
+```bash
+git log --oneline --graph --all
+```
+
+Muestra una representación visual del historial y las ramas del proyecto.
+
+---
+
+## ✅ Buenas Prácticas
+
+- Utiliza nombres descriptivos para las ramas: `feature/login`, `fix/bug-login`, `hotfix/crash-on-startup`.
+- No trabajes directamente en la rama `main`. Usa ramas para mantener el flujo organizado.
+- Antes de fusionar, asegúrate de que no haya conflictos y que los cambios hayan sido probados.
+- Elimina ramas que ya hayan sido fusionadas para mantener el repositorio limpio.
+
+---
+
+## 🌐 Ramas Remotas
+
+Para trabajar con ramas en remoto (por ejemplo, en GitHub), puedes hacer lo siguiente:
+
+### Subir una rama al remoto
+
+```bash
+git push origin nombre-de-la-rama
+```
+
+### Obtener ramas remotas
+
+```bash
+git fetch
+```
+
+### Cambiar a una rama remota
+
+```bash
+git checkout -b nombre-de-la-rama origin/nombre-de-la-rama
+```
+
+---
+
+## 🧠 Conclusión
+
+El uso de ramas facilita el desarrollo colaborativo y organizado. Permite probar nuevas ideas sin poner en riesgo el código principal y facilita la integración controlada de nuevas características.
