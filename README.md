@@ -56,7 +56,7 @@ tema4-apuntes/
 ---
 ## ✅ Estado del proyecto
 
-❌ Apuntes completos  
-❌ Uso de ramas y fusión  
-❌ Capturas incluidas  
+✔️  Apuntes completos  
+✔️  Uso de ramas y fusión  
+✔️  Capturas incluidas  
 ✔️ Sincronizado con GitHub
