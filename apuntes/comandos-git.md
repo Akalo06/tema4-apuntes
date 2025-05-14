@@ -316,6 +316,8 @@ git log --oneline
 El uso de claves SSH en Git permite establecer una conexión segura entre tu equipo local y servicios como GitHub, GitLab o Bitbucket sin necesidad de introducir tus credenciales cada vez que realizas una operación remota.
 
 ---
+![presentacion git de ssh](../capturas/2git.png)
+---
 
 ## 🔧 ¿Qué es SSH?
 
