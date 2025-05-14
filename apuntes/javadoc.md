@@ -111,9 +111,9 @@ public class Persona {
 ```
 ---
 
-![captura de javadoc1](./capturas/1javadoc.png)
-![captura de javadoc2](./capturas/2javadoc.png)
-![captura de javadoc3](./capturas/3javadoc.png)
+![captura de javadoc1](../capturas/1javadoc.png)
+![captura de javadoc2](../capturas/2javadoc.png)
+![captura de javadoc3](../capturas/3javadoc.png)
 
 ---
 
